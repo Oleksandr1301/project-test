@@ -1,0 +1,44 @@
+.about {
+  padding: 40px 0 19px 0;
+  background-color: #f4f4f4;
+
+  & .container {
+    padding-right: 66px;
+    padding-left: 66px;
+    width: 1200px;
+  }
+
+  &-list {
+    display: flex;
+    gap: 71px;
+  }
+
+  &-item {
+    width: calc((100% - 142px) / 3);
+  }
+
+  &-icon-wrapper {
+    background-color: var(--accent-color);
+    border-radius: 50%;
+    width: 67px;
+    height: 67px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+  }
+
+  &-title {
+    margin-bottom: 16px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  &-text {
+    line-height: 1.56;
+    text-align: center;
+  }
+}

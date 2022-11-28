@@ -1,0 +1,26 @@
+.blog {
+  & .container {
+    display: flex;
+    padding: 0;
+  }
+
+  &-content-wrapper {
+    background-color: #0284d0;
+    padding: 112px 46px 113px 28px;
+    width: 50%;
+  }
+
+  &-btn {
+    border: 1px solid var(--secondary-text-color);
+    border-radius: 5px;
+    padding: 11px 31px 10px 42px;
+
+    line-height: 1.56;
+    color: var(--secondary-text-color);
+    display: inline-block;
+  }
+
+  &-img {
+    background-color: #0284d0;
+  }
+}

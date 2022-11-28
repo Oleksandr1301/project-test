@@ -1,0 +1,26 @@
+.one-time {
+  background-color: #5e5e5e;
+
+  height: 600px;
+}
+
+.slick {
+  &-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+.slick-dots li.slick-active button:before {
+  color: orange;
+}
+
+.slick-dots li button:before {
+  color: green;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: red;
+}

@@ -1,0 +1,67 @@
+.hero {
+  padding-top: 144px;
+  padding-bottom: 95px;
+  display: block;
+  text-align: center;
+
+  background-color: #5e5e5e;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/hero/bg-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1360px;
+  margin: 0 auto;
+
+  @media screen and(min-width: $tablet) {
+    padding-top: 407px;
+    padding-bottom: 412px;
+  }
+
+  @media screen and(min-width: $desctop) {
+    padding: 259px 0 284px 0;
+  }
+
+  &-title {
+    font-size: 52px;
+    margin-bottom: 16px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #e9e9e9;
+
+    @media screen and(min-width: 768px) {
+      font-size: 55px;
+      margin-bottom: 25px;
+    }
+
+    @media screen and(min-width: 1360px) {
+      margin-bottom: 45px;
+    }
+  }
+
+  &-text {
+    margin-bottom: 27px;
+    font-size: 22px;
+    line-height: 1.67;
+    color: #e9e9e9;
+
+    @media screen and(min-width: 768px) {
+      margin-bottom: 29px;
+    }
+  }
+
+  &-button {
+    padding: 10px 30px 10px 41px;
+    line-height: 1.56;
+    color: var(--secondary-text-color);
+    background: var(--accent-color);
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+}

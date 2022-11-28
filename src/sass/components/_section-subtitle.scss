@@ -1,0 +1,14 @@
+.section-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+
+  &-light {
+    color: var(--secondary-text-color);
+    margin-bottom: 5px;
+  }
+
+  &-dark {
+    color: var(--primary-text-color);
+    margin-bottom: 15px;
+  }
+}
